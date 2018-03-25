@@ -1,0 +1,21 @@
+.textInput {
+    background-color: #FEFCFF;
+    font: inherit;
+    border: 1px solid #786D5F;
+    margin: 0 auto 20px;
+    padding: 4px 8px;
+    width: 25%;
+}
+
+.badLength {
+    color : #ff0000;
+}
+
+.goodLength {
+    color: green;
+}
+
+.small {
+    font-size: 12px;
+    color: #3D3C3A;
+}
