@@ -8,9 +8,22 @@
     position: relative;
 }
 
-.btn.close {
+.Closebutton {
     position: absolute;
     top: 5px;
     right: 5px;
+    background-color: lightgray!important;
+    color: black!important;
+    border: 1px solid darkgray!important;
 }
 
+.Closebutton:hover {
+    background-color: darkgray!important;
+    color: white!important;
+}
+
+@media (min-width: 500px) {
+    .Person {
+        width: 450px;
+    }
+}
