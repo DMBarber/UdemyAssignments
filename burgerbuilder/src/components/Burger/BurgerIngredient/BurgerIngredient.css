@@ -120,6 +120,14 @@
     border-radius: 20px;
 }
 
+.Pickle {
+    width: 58%;
+    height: 5%;
+    margin: 2% auto;
+    background: linear-gradient(#0f350dee, #385e10c9);
+    border-radius: 20px;
+}
+
 .Bacon {
     width: 80%;
     height: 3%;
