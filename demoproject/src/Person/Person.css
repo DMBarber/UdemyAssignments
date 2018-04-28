@@ -1,0 +1,29 @@
+.Person {
+    width: 60%;
+    margin: 16px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+    text-align: center;
+    position: relative;
+}
+
+.Closebutton {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: lightgray!important;
+    color: black!important;
+    border: 1px solid darkgray!important;
+}
+
+.Closebutton:hover {
+    background-color: darkgray!important;
+    color: white!important;
+}
+
+@media (min-width: 500px) {
+    .Person {
+        width: 450px;
+    }
+}
